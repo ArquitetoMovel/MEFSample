@@ -1,0 +1,13 @@
+﻿<Window x:Class="MEFPlugin.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Title="MainWindow"
+		Height="350"
+		Width="525">
+    <UniformGrid x:Name="PluginGrid">
+
+        <Button x:Name="butCompose" Content="Compose" HorizontalAlignment="Left" Height="36" Margin="2,110,0,0" VerticalAlignment="Top" Width="97" Click="butCompose_Click" />
+        <Button x:Name="butRecompose" Content="Recompose" HorizontalAlignment="Left" Height="36" Margin="27,210,0,-86" VerticalAlignment="Top" Width="97" Click="butRecompose_Click"/>
+
+    </UniformGrid>
+</Window>
